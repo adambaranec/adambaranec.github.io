@@ -1,1 +1,1 @@
-# Website for the project NetDJ
+# Website for the project OscDJ
