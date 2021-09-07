@@ -2,4 +2,7 @@ body{
     background-color: black;
   }
  * {color: #ddd;}
+ #warning{
+  font-style: italic;
+}
  
