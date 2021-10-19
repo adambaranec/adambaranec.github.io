@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>OscDJ</title>
+  <title>Main page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,24 +10,26 @@
 <div class="container-fluid">
   <ul class="nav navbar-nav">
     <li class="nav-item">
-      <a class="navbar-brand" href="#">OscDJ</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="tutorial.html">Tutorial</a>
+      <a class="navbar-brand" href="#">Home</a>
     </li>
   </ul>
 </div>
 <body>
-       <h1>Welcome to the OscDJ official page</h1>
-       <h2>What is it about?</h2>
-       <p>OscDJ serves as a DJ console in a mobile, which is connected to a computer wirelessly.</p>
-       <h2>How does it work?</h2>
-       <p>This project works with a protocol called OSC - open sound control, capable for sending data from an application to another application within a network.</p>
-       <p id="warning">Warning: This project is under construction right now, so I will not provide any tutorial or installation info yet.</p>
-       <a href="http://adambaranec.com">Check my oficial website.</a>
+  <h3>Projects</h3>
+  <ul class="list-group">
+    <li><a href="abdj.html">ABDJ</a></li>
+    <li><a href="#" onclick="dialog()">Matika</a></li>
+  </ul>
+  <a href="http://adambaranec.com">Check my oficial website.</a>
 </body> 
 <footer>© Adam Baranec, 2021</footer>   
       <style>
         @import "style.css";
       </style> 
 </html>
+
+<script>
+function dialog(){
+alert("This project is under construction.")
+}
+</script>

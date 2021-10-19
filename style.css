@@ -5,4 +5,7 @@ body{
  #warning{
   font-style: italic;
 }
+img{
+  width: 100%;
+}
  
