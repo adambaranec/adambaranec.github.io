@@ -1,11 +1,45 @@
 body{
     background-color: black;
   }
- * {color: #ddd;}
- #warning{
+*{
+  color: #ddd;
+}
+#warning{
   font-style: italic;
 }
-img{
-  width: 100%;
+#description,h1,h2,footer,p{
+  text-align: center;
 }
- 
+p, .tutorial{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+a{
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+/*rules for mobiles and tablets*/
+@media only screen and (max-width: 768px) {
+  img{
+    width: 100%;
+  }
+  h1,h2,p,footer{
+    text-align: left;
+  }
+  p{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  a{
+    justify-content: left;
+    align-content: left;
+  }
+}

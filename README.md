@@ -1,4 +1,5 @@
-# Official website for the project OscDJ
+# Overview
 
-I started to love experimenting with HTML and CSS, that's why it is there.
-Essential information about the project will be added soon.
+I literally fell in love with the "Holy Trinity" of frontend -
+HTML, CSS and JS. That's why this website (if it can be called like that)
+originated and is created mainly for showing portfolio.
