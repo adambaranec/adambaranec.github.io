@@ -38,14 +38,14 @@ border: none;
   img{
     width: 100%;
   }
-  h1,h2,p,footer{
+  h1,h2,p, .tutorial{
     text-align: left;
   }
-  p{
+  p, .tutorial{
     margin-left: 0;
     margin-right: 0;
   }
-  a{
+  a, #button{
     justify-content: left;
     align-content: left;
   }
