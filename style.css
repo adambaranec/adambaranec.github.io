@@ -20,7 +20,7 @@ img{
   margin-right: auto;
   width: 60%;
 }
-/*the id 'button' is for the div which contains the button*/
+/*the id 'button' is for the div which contains the button "Go to tutorial"*/
 a, #button{
 display: flex;
 justify-content: center;
