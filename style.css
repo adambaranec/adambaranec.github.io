@@ -20,10 +20,17 @@ img{
   margin-right: auto;
   width: 60%;
 }
-a{
+/*the id 'button' is for the div which contains the button*/
+a, #button{
 display: flex;
 justify-content: center;
 align-content: center;
+}
+button{
+color:#ddd;
+background-color: #00aa;
+border-radius: 3px;
+border: none;
 }
 
 /*rules for mobiles and tablets*/
