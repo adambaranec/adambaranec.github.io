@@ -1,11 +1,13 @@
+---
+layout: default
+title: Tutorial for ABDJ
+app: ABDJ
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
-        <link rel="stylesheet" href="style.css">
     </head>
     <div class="container-fluid">
         <ul class="nav navbar-nav">
@@ -17,30 +19,25 @@
           </li>
         </ul>
       </div>
-<title>Tutorial of ABDJ</title>
 <body>
-    <header>   
-        <h1>Tutorial</h1>
-           </header>
-           <p>As soon as you want to use this product, make sure your DAW supports the OSC protocol.</p>
-           <h2>Get ABDJ</h2>
+           <p>As soon as you want to use this product, make sure your DAW supports the <a href="https://en.wikipedia.org/wiki/Open_Sound_Control">OSC</a> protocol.</p>
+           <h2>Get {{ page.app}}</h2>
            <ol>
-               <li class="tutorial">Download ABDJ on Google Play.</li>
+               <li class="tutorial">Download {{ page.app }} on Google Play.</li>
                <li class="tutorial">Make sure your computer, which you are working with and your phone, where you have installed the ABDJ app,
                    are on THE SAME network (eg. LAN, Wi-Fi...). Find its IP address.</li>
-               <li class="tutorial">Click the button "Get Plugin" and the ABDJ Plugin will be installed in your computer.</li>
+               <li class="tutorial">Click the button "Get Plugin" and the {{ page.app }} Plugin will be installed in your computer.</li>
            </ol>
-           <p id="warning">Warning: Especially on Macs, there is no guarantee that ABDJ Plugin will be easily installed.
+           <p id="warning">Warning: Especially on Macs, there is no guarantee that {{ page.app }} Plugin will be easily installed.
                Make sure you have changed permissions to install things to computer from another devices.
            </p>
         <h2>Use in practice</h2>
         <ol>
-            <li class="tutorial">Import an audio track to your DAW, enable and open ABDJ.</li>
+            <li class="tutorial">Import an audio track to your DAW, enable and open {{ page.app }}.</li>
             <li class="tutorial">Click the button "Get IP Address (Your Computer)", it will return your computer's IP address.</li>
-            <li class="tutorial">Open the ABDJ app, write computer's IP address and click the button "Connect".</li>
+            <li class="tutorial">Open the {{ page.app }} app, write computer's IP address and click the button "Connect".</li>
             <li class="tutorial">If it is alright, you should hear changes of sound when manipulating with the app.</li>
         </ol>
         <p>Happy mixing!</p>
-</body>
-<footer>© Adam Baranec, 2021</footer>   
+</body> 
 </html>
