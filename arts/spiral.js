@@ -12,7 +12,6 @@ let seconds = 0;
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   noStroke();
-  noCursor();
 }
 
 function draw() {
