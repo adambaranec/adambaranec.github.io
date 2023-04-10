@@ -27,10 +27,10 @@ let colorArr = new Array();
 let texts = ["CARPE DIEM","ENJOY YOUR LIFE"];
 
 function colors(){
+colorArr = [];
+let valueArr = Object.keys(Color);
 for (let cls = 0; cls <= int(random(9)); cls++){
-  let valueArr = Object.keys(Color);
-  let index = int(random(valueArr.length));
-  colorArr.push(valueArr[index]);
+  let index = int(random(valueArr.length - 1)); colorArr.push(valueArr[index]);
 }
 }
 
