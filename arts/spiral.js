@@ -7,7 +7,7 @@ let densityY = 0;
 let red = 0.0;
 let green = 0.0;
 let blue = 0.0;
-let seconds = 0;
+let seconds = 1;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
@@ -17,14 +17,14 @@ function setup() {
 function draw() {
   background(red,green,blue);  
   if (frameCount % 60 == 0){seconds += 1;}
-  if (seconds == 121){seconds = 0;}
+  if (seconds == 91){seconds = 1;}
   if (seconds <= 30){
     densityX += (30/1800); densityY += (30/1800);
   }
-  else if (seconds > 30 && seconds != 61){
+  else if (seconds > 30 && seconds < 61){
   fill(random(255), random(255), random(255));
   }
-  else if (seconds > 60 && seconds != 121){
+  else if (seconds > 60 && seconds < 91){
    densityX -= (30/1800); densityY -= (30/1800);
   }
   if (minute() % 2 == 0){
