@@ -58,7 +58,7 @@ if (frameCount % 1800 == 0){
 }
 if (frameCount % 3600 == 0){
 dur = random(1.0) + 4.0;
-textIndex = int(random(texts.length - 1));
+textIndex = int(random(texts.length) / 2);
 }
     if (futureCol == Color.White.name){
       if (anim == true){
