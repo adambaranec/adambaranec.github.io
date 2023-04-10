@@ -20,7 +20,7 @@ let blue = 0.0;
 let dur = 4.0;
 let arrIndex = -1;
 let textIndex = 0;
-let anim = false;
+let anim = true;
 let showText = false;
 let futureCol = "";
 let colorArr = new Array();
@@ -58,7 +58,7 @@ if (frameCount % 1800 == 0){
 }
 if (frameCount % 3600 == 0){
 dur = random(1.0) + 4.0;
-textIndex = int(random(texts.length));
+textIndex = int(random(texts.length - 1));
 }
     if (futureCol == Color.White.name){
       if (anim == true){
