@@ -62,69 +62,69 @@ textIndex = int(random(texts.length) / 2);
 }
     if (futureCol == Color.White.name){
       if (anim == true){
-        red += (1.0 - red) / (frameRate * dur);
-        green += (1.0 - green) / (frameRate * dur);
+        red += (1.0 - red) / (frameRate() * dur);
+        green += (1.0 - green) / (frameRate() * dur);
         blue += (1.0 - blue) / (frameRate * dur);
       } else {red = 1.0; green = 1.0; blue = 1.0;}
     }
     else if (futureCol == Color.Yellow.name){
       if (anim == true){
-      red += (1.0 - red) / (frameRate * dur);
-      green += (1.0 - green) / (frameRate * dur);
-      blue += (0.0 - blue) / (frameRate * dur);
+      red += (1.0 - red) / (frameRate() * dur);
+      green += (1.0 - green) / (frameRate() * dur);
+      blue += (0.0 - blue) / (frameRate() * dur);
       } else {red = 1.0; green = 1.0; blue = 0.0;}
     }
     else if (futureCol == Color.Magenta.name){
       if (anim == true){
-        red += (1.0 - red) / (frameRate * dur);
-        green += (0.0 - green) / (frameRate * dur);
-        blue += (1.0 - blue) / (frameRate * dur);
+        red += (1.0 - red) / (frameRate() * dur);
+        green += (0.0 - green) / (frameRate() * dur);
+        blue += (1.0 - blue) / (frameRate() * dur);
       } else {red = 1.0; green = 0.0; blue = 1.0;}
     }
     else if (futureCol == Color.Red.name){
       if (anim == true){
-      red += (1.0 - red) / (frameRate * dur);
-      green += (0.0 - green) / (frameRate * dur);
-      blue += (0.0 - blue) / (frameRate * dur);
+      red += (1.0 - red) / (frameRate() * dur);
+      green += (0.0 - green) / (frameRate() * dur);
+      blue += (0.0 - blue) / (frameRate() * dur);
       } else {red = 1.0; green = 0.0; blue = 0.0;}
     }
     else if (futureCol == Color.Green.name){
       if (anim == true){
-      red += (0.0 - red) / (frameRate * dur);
-      green += (1.0 - green) / (frameRate * dur);
-      blue += (0.0 - blue) / (frameRate * dur);        
+      red += (0.0 - red) / (frameRate() * dur);
+      green += (1.0 - green) / (frameRate() * dur);
+      blue += (0.0 - blue) / (frameRate() * dur);        
       } else {red = 0.0; green = 1.0; blue = 0.0;}
     }
     else if (futureCol == Color.Blue.name){
       if (anim == true){
-      red += (0.0 - red) / (frameRate * dur);
-      green += (0.0 - green) / (frameRate * dur);
-      blue += (1.0 - blue) / (frameRate * dur);        
+      red += (0.0 - red) / (frameRate() * dur);
+      green += (0.0 - green) / (frameRate() * dur);
+      blue += (1.0 - blue) / (frameRate() * dur);        
       } else {red = 0.0; green = 0.0; blue = 1.0;}
     }
     else if (futureCol == Color.Purple.name){
       if (anim == true){
-      red += (0.2 - red) / (frameRate * dur);
-      green += (0.0 - green) / (frameRate * dur);
-      blue += (0.5 - blue) / (frameRate * dur);        
+      red += (0.2 - red) / (frameRate() * dur);
+      green += (0.0 - green) / (frameRate() * dur);
+      blue += (0.5 - blue) / (frameRate() * dur);        
       } else {red = 0.2; green = 0.0; blue = 0.5;}
     }
     else if (futureCol == Color.Brown.name){
       if (anim == true){
-      red += (0.3 - red) / (frameRate * dur);
-      green += (0.2 - green) / (frameRate * dur);
-      blue += (0.1 - blue) / (frameRate * dur);        
+      red += (0.3 - red) / (frameRate() * dur);
+      green += (0.2 - green) / (frameRate() * dur);
+      blue += (0.1 - blue) / (frameRate() * dur);        
       } else {red = 0.3; green = 0.2; blue = 0.1;}
     }
     else if (futureCol == Color.Orange.name){
       if (anim == true){
-      red += (1.0 - red) / (frameRate * dur);
-      green += (0.45 - green) / (frameRate * dur);
-      blue += (0.0 - blue) / (frameRate * dur);        
+      red += (1.0 - red) / (frameRate() * dur);
+      green += (0.45 - green) / (frameRate() * dur);
+      blue += (0.0 - blue) / (frameRate() * dur);        
       } else {red = 1.0; green = 0.45; blue = 0.0;}
     }
       background(red*255.0,green*255.0,blue*255.0);
       if (showText == true){
-      text(texts[textIndex],width/2,height/2);
+text(random(texts),width/2,height/2);
       }
 }
