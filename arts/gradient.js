@@ -37,9 +37,11 @@ for (let cls = 0; cls <= int(random(Object.keys(Color).length + 1)); cls++){
 function setup(){
 createCanvas(window.innerWidth, window.innerHeight);
 colors();
-textSize(window.innerHeight/6);
+textSize(window.innerHeight/10);
 textAlign(CENTER);
 textWrap(WORD);
+fill(255,255,255);
+red = random(200); green = random(200); blue = random(200);
 futureCol = colorArr[0];
 }
 
@@ -59,7 +61,7 @@ if (frameCount % 1800 == 0){
 }
 if (frameCount % 3600 == 0){
 dur = random(1.0) + 4.0;
-textIndex = int(random(texts.length) / 2);
+textIndex = int(random(texts.length + 1));
 }
  if (futureCol == Color.White.name){
       if (anim == true){
