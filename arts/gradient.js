@@ -29,8 +29,8 @@ let texts = ["CARPE DIEM","ENJOY YOUR LIFE"];
 function colors(){
 colorArr = [];
 let valueArr = Object.keys(Color);
-for (let cls = 0; cls <= int(random(Object.keys(Color).length)); cls++){
-  let index = int(random(valueArr.length)); colorArr.push(valueArr[index]);
+for (let cls = 0; cls <= int(random(Object.keys(Color).length + 1)); cls++){
+  let index = int(random(valueArr.length + 1)); colorArr.push(valueArr[index]);
 }
 }
 
@@ -124,7 +124,7 @@ textIndex = int(random(texts.length) / 2);
       blue += (0.0 - blue) / (60 * dur);        
       } else {red = 1.0; green = 0.45; blue = 0.0;}
     }
-       background(red*100.0,green*100.0,blue*100.0);
+       background(red*200.0,green*200.0,blue*200.0);
        if (showText == true){
 text(texts[textIndex],width/2,height/2);
       }
