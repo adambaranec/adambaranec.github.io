@@ -7,7 +7,7 @@ body{
 #warning{
   font-style: italic;
 }
-#description,h1,h2,footer,p,li{
+#description,h1,h2,footer,p,li,a{
   text-align: center;
   font-family:monospace;
 }
