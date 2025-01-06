@@ -27,7 +27,6 @@ z-index: 2;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: 1;
 }
 /*the id 'button' is for the div which contains the button "Go to tutorial"
 #button{
