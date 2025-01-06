@@ -20,6 +20,7 @@ ul {
 }
 #content{
   display: block;
+  z-index: 2;
 }
 #backVideo{
   right: 0;
