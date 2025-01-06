@@ -18,6 +18,9 @@ p, .tutorial{
 ul {
   list-style-type: none;
 }
+#content{
+display: block;
+}
 #backVideo{
   position: fixed;
   right: 0;
