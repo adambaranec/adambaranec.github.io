@@ -31,7 +31,7 @@ ul {
   min-width: 100%;
   min-height: 100%; 
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 /*the id 'button' is for the div which contains the button "Go to tutorial"
 #button{
