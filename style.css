@@ -2,11 +2,26 @@
   color: #ddd;
   font-family: monospace;
 }
-.pageTitle,.projName,.description,footer,li,a{
+body {
+  background-color:black;
+}
+.pageTitle,.copyright{
   text-align: center;
 }
-ul {
+.headerTitle,.projName{
+  margin-left: 45vw;
+}
+.introList,.projList{
   list-style-type: none;
+  margin-left: 44vw;
+}
+.musicList{
+  list-style-type: square;
+  margin-left: 40vw;
+  margin-right: 40vw;
+}
+.description{
+  margin-left: 42vw;
 }
 .page-container{
   position: relative;
