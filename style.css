@@ -8,21 +8,6 @@ body {
 .pageTitle,.copyright{
   text-align: center;
 }
-.headerTitle,.projName{
-  margin-left: 45vw;
-}
-.introList,.projList{
-  list-style-type: none;
-  margin-left: 44vw;
-}
-.musicList{
-  list-style-type: square;
-  margin-left: 40vw;
-  margin-right: 40vw;
-}
-.description{
-  margin-left: 42vw;
-}
 .page-container{
   position: relative;
   height: 100vh; 
@@ -38,13 +23,77 @@ body {
   z-index: -1;
   opacity: 0.5;
 }
+.desktop-only{
+  display: none;
+}
 
-/*rules for mobiles and tablets*/
-@media only screen and (max-width: 768px) {
-  p,li,a{
-    text-align: left;
+/*@media (min-width: 1441px) {
+  .desktop-only{
+    display: block;
   }
-  footer{
-    text-align: center;
+  .headerTitle,.projName{
+    margin-left: 45vw;
   }
+  .introList,.projList{
+    list-style-type: none;
+    margin-left: 41vw;
+  }
+  .musicList{
+    list-style-type: square;
+    margin-left: 35vw;
+    margin-right: 35vw;
+  }
+}*/
+/*desktops*/
+@media  (min-width: 1024px) and (max-width: 1440px) {
+  .headerTitle,.projName{
+    margin-left: 45vw;
+  }
+  .introList,.projList{
+    list-style-type: none;
+    margin-left: 41vw;
+  }
+  .musicList{
+    list-style-type: square;
+    margin-left: 35vw;
+    margin-right: 35vw;
+  }
+  .description{
+    margin-left: 38.6vw;
+  }
+  .desktop-only{
+    display: block;
+  }
+}
+/*tablets*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .headerTitle,.projName{
+      margin-left: 44vw;
+  }
+  .introList,.projList{
+  list-style-type: none;
+  margin-left: 39vw;
+  }
+  .musicList{
+  margin-left: 32vw;
+  margin-right: 32vw;
+  }
+  .description{
+    margin-left: 36.9vw;
+  }
+}
+/*mobiles*/
+@media (max-width: 480px) {
+.headerTitle,.projName{
+margin-left: 35vw;
+}
+.introList,.projList{
+  list-style-type: none;
+}
+.musicList{
+  list-style-type: square;
+}
+.description{
+  margin-left: 10vw;
+}
 }
