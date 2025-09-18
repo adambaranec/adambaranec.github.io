@@ -45,7 +45,7 @@ body {
   }
 }*/
 /*desktops*/
-@media  (min-width: 1024px) and (max-width: 1440px) {
+@media  (min-width: 1024px) {
   .headerTitle,.projName{
     margin-left: 45vw;
   }
