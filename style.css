@@ -7,93 +7,112 @@ body {
 }
 .pageTitle,.copyright{
   text-align: center;
+  font-size: 7vw;
+}
+.headerTitle{
+  font-size: 6.3vw;
+  text-align: center;
+}
+.projName{
+  font-size: 4.5vw;
+  text-align: center;
+}
+.copyright{
+  font-size: 3vw;
 }
 .page-container{
   position: relative;
-  height: 100vh; 
-  width: 100vw;
+  min-height: 100%; 
+  height: auto;
+  width: 100%;
   overflow: hidden;
 }
-.page-container video{
-  position: absolute;
+#backVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
   width: auto;
   height: auto;
-  min-width: 100%;
-  min-height: 100%; 
-  z-index: -1;
-  opacity: 0.5;
+  z-index: -100; 
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  object-fit: cover;
+  opacity: 50%;
 }
 .desktop-only{
   display: none;
 }
+ul {
+  padding: 0;
+}
+ul li{
+  list-style-type: none;
+}
+.introList li,.projList li{
+  text-align: center;
+  font-size: 2.9vw;
+  margin: auto;
+  padding: 0;
+}
+.introList li:last-child{
+  padding-bottom: 2.5vh;
+}
+#vjing-sessions li:last-child{
+padding-bottom: 3vh;
+}
+.artList{
+  font-size: 3.6vw;
+  text-align: left;
+  padding-left: 15vw;
+}
+.artList li{
+  padding-bottom: 1.8vh;
+}
+.artList li:last-child{
+  padding-bottom: 3vh;
+}
+.kofi-container{
+text-align: center;
+}
+#kofi-img{
+  border:0px;
+  height:5vh;
+}
 
-/*@media (min-width: 1441px) {
-  .desktop-only{
+@media  (min-width: 1025px) {
+    .desktop-only{
     display: block;
   }
-  .headerTitle,.projName{
-    margin-left: 45vw;
-  }
-  .introList,.projList{
-    list-style-type: none;
-    margin-left: 41vw;
-  }
-  .musicList{
-    list-style-type: square;
-    margin-left: 35vw;
-    margin-right: 35vw;
-  }
-}*/
-/*desktops*/
-@media  (min-width: 1024px) {
-  .headerTitle,.projName{
-    margin-left: 45vw;
-  }
-  .introList,.projList{
-    list-style-type: none;
-    margin-left: 41vw;
-  }
-  .artList{
-    list-style-type: square;
-    margin-left: 35vw;
-    margin-right: 35vw;
-  }
-  .description{
-    margin-left: 38.6vw;
-  }
-  .desktop-only{
-    display: block;
-  }
+  .pageTitle{
+  text-align: center;
+  font-size: 2vw;
 }
-/*tablets*/
-@media (min-width: 768px) and (max-width: 1023px) {
-  .headerTitle,.projName{
-      margin-left: 44vw;
-  }
-  .introList,.projList{
-  list-style-type: none;
-  margin-left: 39vw;
-  }
-  .musicList{
-  margin-left: 32vw;
-  margin-right: 32vw;
-  }
-  .description{
-    margin-left: 36.9vw;
-  }
+.headerTitle{
+  font-size: 1.7vw;
+  text-align: center;
 }
-/*mobiles*/
-@media (max-width: 480px) {
-.headerTitle,.projName{
-margin-left: 35vw;
+.projName{
+  font-size: 1.2vw;
+  text-align: center;
 }
-.introList,.projList{
-  list-style-type: none;
+.copyright{
+  font-size: 1.1vw;
 }
-.musicList{
-  list-style-type: square;
+.introList li:last-child, .projList li:last-child, #vjing-sessions li:last-child, .artList li:last-child{
+  padding-bottom: 0;
 }
-.description{
-  margin-left: 10vw;
+.projList li,.introList li{
+  font-size: 1vw;
+}
+.artList li{
+  padding-bottom: 1.1vh;
+  font-size: 1vw;
+  padding-left: 20vw;
+}
+#kofi-img{
+  border:0px;
+  height:7vh;
 }
 }

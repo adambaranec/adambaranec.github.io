@@ -9,14 +9,18 @@
 </head> 
 <body>
 <div class="page-container">
-    <video autoplay muted loop preload="auto" id="backVideo">
-        <source src="video/background.webm" type="video/webm">
+    <video autoplay muted loop playsinline preload="auto" id="backVideo">
+        <source src="{{ '/video/background.webm' | relative_url }}" type="video/webm">
     </video>
     <div class="page-content">
         <h1 class="pageTitle">{{ page.title }}</h1>
         {{ content }}
     </div>
-<p class="copyright">&copy; Adam Baranec, {{ site.time | date: '%Y' }}</p>    
+<p class="copyright">&copy; Adam Baranec, {{ site.time | date: '%Y' }}</p>   
+<div class="kofi-container">
+<a href='https://ko-fi.com/B0B11R1NTO' target='_blank'><img id="kofi-img" src='https://storage.ko-fi.com/cdn/kofi2.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+</div> 
 </div>
+</script>
 </body>
 </html>
