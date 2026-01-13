@@ -9,8 +9,8 @@
 </head> 
 <body>
 <div class="page-container">
-    <video autoplay muted loop playsinline preload="auto" id="backVideo">
-        <source src="{{ '/video/background.webm' | relative_url }}" type="video/webm">
+    <video preload="metadata" id="backVideo">
+        <source src="{{ '/video/background.webm' | relative_url }}#t=0.01" type="video/webm">
     </video>
     <div class="page-content">
         <h1 class="pageTitle">{{ page.title }}</h1>
