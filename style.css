@@ -1,6 +1,6 @@
 *{
   color: #ddd;
-  font-family: 'Lucida Sans';
+  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
 body {
   background-color:hsl(128, 100%, 7%);
