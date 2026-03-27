@@ -1,9 +1,9 @@
 *{
   color: #ddd;
-  font-family: monospace;
+  font-family: 'Lucida Sans Typewriter';
 }
 body {
-  background-color:black;
+  background-color:hsl(128, 100%, 7%);
 }
 .pageTitle,.copyright{
   text-align: center;
@@ -12,6 +12,7 @@ body {
 .headerTitle{
   font-size: 6.3vw;
   text-align: center;
+  padding: 0;
 }
 .projName{
   font-size: 4.5vw;
@@ -66,7 +67,7 @@ padding-bottom: 3vh;
 .artList{
   font-size: 3.6vw;
   text-align: left;
-  padding-left: 15vw;
+  padding-left: 13vw;
 }
 .artList li{
   padding-bottom: 1.8vh;
@@ -108,8 +109,8 @@ text-align: center;
   font-size: 1vw;
 }
 .artList li{
-  padding-bottom: 1.1vh;
-  font-size: 1vw;
+  padding-bottom: 1.2vh;
+  font-size: 1.2vw;
   padding-left: 20vw;
 }
 #kofi-img{
